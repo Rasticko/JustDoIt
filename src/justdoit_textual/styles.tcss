@@ -1,0 +1,249 @@
+Screen {
+    background: #1e1e2e;
+    color: #cdd6f4;
+}
+
+ModalScreen {
+    align: center middle;
+    background: transparent;
+    tint: transparent;
+}
+
+Header {
+    background: #1e1e2e;
+    color: #cba6f7;
+}
+
+Footer {
+    background: #1e1e2e;
+    color: #a6adc8;
+}
+
+#root {
+    height: 1fr;
+}
+
+#calendar-root {
+    height: 1fr;
+}
+
+#sidebar-pane {
+    width: 34;
+    border: round #74c7ec;
+    margin: 1 0 1 1;
+    padding: 1;
+    background: #1e1e2e;
+}
+
+#main-pane {
+    border: round #74c7ec;
+    margin: 1 1 1 1;
+    padding: 1;
+    background: #1e1e2e;
+}
+
+.calendar-pane {
+    border: round #74c7ec;
+    margin: 1;
+    padding: 1;
+    background: #1e1e2e;
+}
+
+#calendar-month-pane {
+    width: 2fr;
+}
+
+#calendar-details-pane {
+    width: 1fr;
+}
+
+#calendar-month-title {
+    margin-bottom: 1;
+}
+
+#calendar-grid {
+    border: tall #74c7ec;
+    padding: 1;
+    height: 1fr;
+}
+
+#calendar-day-tasks {
+    height: 1fr;
+}
+
+#calendar-day-summary {
+    margin-top: 1;
+}
+
+.pane-title {
+    text-style: bold;
+    color: #cba6f7;
+    margin-bottom: 1;
+}
+
+OptionList {
+    border: tall #74c7ec;
+    background: #1e1e2e;
+    color: #cdd6f4;
+    height: 1fr;
+}
+
+OptionList > .option-list--option-highlighted {
+    background: #313244;
+    color: #f9e2af;
+    text-style: bold;
+}
+
+#status {
+    margin-top: 1;
+    color: #a6adc8;
+}
+
+#calendar-inline {
+    border: tall #74c7ec;
+    background: #1e1e2e;
+    color: #cdd6f4;
+    height: 1fr;
+    padding: 1;
+}
+
+#prompt-modal {
+    width: 78;
+    height: auto;
+    border: round #74c7ec;
+    padding: 1 2;
+    background: #1e1e2e;
+}
+
+.prompt-title {
+    text-style: bold;
+    color: #cba6f7;
+    margin-bottom: 1;
+}
+
+#prompt-input {
+    margin: 1 0;
+    border: tall #74c7ec;
+    background: #1e1e2e;
+    color: #cdd6f4;
+}
+
+.prompt-help {
+    color: #a6adc8;
+}
+
+#capture-highlight {
+    color: #cdd6f4;
+}
+
+#capture-input-line {
+    border: tall #74c7ec;
+    background: #1e1e2e;
+    color: #cdd6f4;
+    height: 3;
+    padding: 0 1;
+    margin: 1 0;
+}
+
+#capture-summary {
+    color: #cdd6f4;
+}
+
+#capture-destination-list {
+    height: 8;
+    margin-top: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+Screen.theme-catppuccin-macchiato {
+    background: #24273a;
+    color: #cad3f5;
+}
+Screen.theme-catppuccin-frappe {
+    background: #303446;
+    color: #c6d0f5;
+}
+Screen.theme-catppuccin-latte {
+    background: #eff1f5;
+    color: #4c4f69;
+}
+Screen.theme-nord {
+    background: #2E3440;
+    color: #ECEFF4;
+}
+Screen.theme-tokyo-night {
+    background: #1a1b26;
+    color: #c0caf5;
+}
+Screen.theme-dracula {
+    background: #282A36;
+    color: #F8F8F2;
+}
+Screen.theme-gruvbox {
+    background: #282828;
+    color: #EBDBB2;
+}
+
+Screen.theme-catppuccin-macchiato Header, Screen.theme-catppuccin-macchiato Footer { background: #24273a; color: #c6a0f6; }
+Screen.theme-catppuccin-macchiato #sidebar-pane, Screen.theme-catppuccin-macchiato #main-pane, Screen.theme-catppuccin-macchiato #prompt-modal, Screen.theme-catppuccin-macchiato .calendar-pane { background: #24273a; border: round #8aadf4; }
+Screen.theme-catppuccin-macchiato .pane-title, Screen.theme-catppuccin-macchiato .prompt-title { color: #c6a0f6; }
+Screen.theme-catppuccin-macchiato OptionList, Screen.theme-catppuccin-macchiato #prompt-input, Screen.theme-catppuccin-macchiato #capture-input-line, Screen.theme-catppuccin-macchiato #calendar-inline { background: #24273a; color: #cad3f5; border: tall #8aadf4; }
+Screen.theme-catppuccin-macchiato OptionList > .option-list--option-highlighted { background: #363a4f; color: #eed49f; }
+Screen.theme-catppuccin-macchiato #status, Screen.theme-catppuccin-macchiato .prompt-help { color: #a5adcb; }
+
+Screen.theme-catppuccin-frappe Header, Screen.theme-catppuccin-frappe Footer { background: #303446; color: #ca9ee6; }
+Screen.theme-catppuccin-frappe #sidebar-pane, Screen.theme-catppuccin-frappe #main-pane, Screen.theme-catppuccin-frappe #prompt-modal, Screen.theme-catppuccin-frappe .calendar-pane { background: #303446; border: round #85c1dc; }
+Screen.theme-catppuccin-frappe .pane-title, Screen.theme-catppuccin-frappe .prompt-title { color: #ca9ee6; }
+Screen.theme-catppuccin-frappe OptionList, Screen.theme-catppuccin-frappe #prompt-input, Screen.theme-catppuccin-frappe #capture-input-line, Screen.theme-catppuccin-frappe #calendar-inline { background: #303446; color: #c6d0f5; border: tall #85c1dc; }
+Screen.theme-catppuccin-frappe OptionList > .option-list--option-highlighted { background: #414559; color: #e5c890; }
+Screen.theme-catppuccin-frappe #status, Screen.theme-catppuccin-frappe .prompt-help { color: #a5adce; }
+
+Screen.theme-catppuccin-latte Header, Screen.theme-catppuccin-latte Footer { background: #eff1f5; color: #8839ef; }
+Screen.theme-catppuccin-latte #sidebar-pane, Screen.theme-catppuccin-latte #main-pane, Screen.theme-catppuccin-latte #prompt-modal, Screen.theme-catppuccin-latte .calendar-pane { background: #eff1f5; border: round #209fb5; }
+Screen.theme-catppuccin-latte .pane-title, Screen.theme-catppuccin-latte .prompt-title { color: #8839ef; }
+Screen.theme-catppuccin-latte OptionList, Screen.theme-catppuccin-latte #prompt-input, Screen.theme-catppuccin-latte #capture-input-line, Screen.theme-catppuccin-latte #calendar-inline { background: #eff1f5; color: #4c4f69; border: tall #209fb5; }
+Screen.theme-catppuccin-latte OptionList > .option-list--option-highlighted { background: #ccd0da; color: #df8e1d; }
+Screen.theme-catppuccin-latte #status, Screen.theme-catppuccin-latte .prompt-help { color: #6c6f85; }
+
+Screen.theme-nord Header, Screen.theme-nord Footer { background: #2E3440; color: #81A1C1; }
+Screen.theme-nord #sidebar-pane, Screen.theme-nord #main-pane, Screen.theme-nord #prompt-modal, Screen.theme-nord .calendar-pane { background: #2E3440; border: round #88C0D0; }
+Screen.theme-nord .pane-title, Screen.theme-nord .prompt-title { color: #81A1C1; }
+Screen.theme-nord OptionList, Screen.theme-nord #prompt-input, Screen.theme-nord #capture-input-line, Screen.theme-nord #calendar-inline { background: #2E3440; color: #ECEFF4; border: tall #88C0D0; }
+Screen.theme-nord OptionList > .option-list--option-highlighted { background: #434C5E; color: #8FBCBB; }
+Screen.theme-nord #status, Screen.theme-nord .prompt-help { color: #D8DEE9; }
+
+Screen.theme-tokyo-night Header, Screen.theme-tokyo-night Footer { background: #1a1b26; color: #7aa2f7; }
+Screen.theme-tokyo-night #sidebar-pane, Screen.theme-tokyo-night #main-pane, Screen.theme-tokyo-night #prompt-modal, Screen.theme-tokyo-night .calendar-pane { background: #1a1b26; border: round #bb9af7; }
+Screen.theme-tokyo-night .pane-title, Screen.theme-tokyo-night .prompt-title { color: #7aa2f7; }
+Screen.theme-tokyo-night OptionList, Screen.theme-tokyo-night #prompt-input, Screen.theme-tokyo-night #capture-input-line, Screen.theme-tokyo-night #calendar-inline { background: #1a1b26; color: #c0caf5; border: tall #bb9af7; }
+Screen.theme-tokyo-night OptionList > .option-list--option-highlighted { background: #292e42; color: #e0af68; }
+Screen.theme-tokyo-night #status, Screen.theme-tokyo-night .prompt-help { color: #9aa5ce; }
+
+Screen.theme-dracula Header, Screen.theme-dracula Footer { background: #282A36; color: #BD93F9; }
+Screen.theme-dracula #sidebar-pane, Screen.theme-dracula #main-pane, Screen.theme-dracula #prompt-modal, Screen.theme-dracula .calendar-pane { background: #282A36; border: round #8BE9FD; }
+Screen.theme-dracula .pane-title, Screen.theme-dracula .prompt-title { color: #BD93F9; }
+Screen.theme-dracula OptionList, Screen.theme-dracula #prompt-input, Screen.theme-dracula #capture-input-line, Screen.theme-dracula #calendar-inline { background: #282A36; color: #F8F8F2; border: tall #8BE9FD; }
+Screen.theme-dracula OptionList > .option-list--option-highlighted { background: #44475A; color: #FFB86C; }
+Screen.theme-dracula #status, Screen.theme-dracula .prompt-help { color: #6272A4; }
+
+Screen.theme-gruvbox Header, Screen.theme-gruvbox Footer { background: #282828; color: #D3869B; }
+Screen.theme-gruvbox #sidebar-pane, Screen.theme-gruvbox #main-pane, Screen.theme-gruvbox #prompt-modal, Screen.theme-gruvbox .calendar-pane { background: #282828; border: round #83A598; }
+Screen.theme-gruvbox .pane-title, Screen.theme-gruvbox .prompt-title { color: #D3869B; }
+Screen.theme-gruvbox OptionList, Screen.theme-gruvbox #prompt-input, Screen.theme-gruvbox #capture-input-line, Screen.theme-gruvbox #calendar-inline { background: #282828; color: #EBDBB2; border: tall #83A598; }
+Screen.theme-gruvbox OptionList > .option-list--option-highlighted { background: #3C3836; color: #FABD2F; }
+Screen.theme-gruvbox #status, Screen.theme-gruvbox .prompt-help { color: #A89984; }
+
+ModalScreen.theme-catppuccin-mocha,
+ModalScreen.theme-catppuccin-macchiato,
+ModalScreen.theme-catppuccin-frappe,
+ModalScreen.theme-catppuccin-latte,
+ModalScreen.theme-nord,
+ModalScreen.theme-tokyo-night,
+ModalScreen.theme-dracula,
+ModalScreen.theme-gruvbox {
+    background: transparent;
+    tint: transparent;
+}
