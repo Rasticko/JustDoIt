@@ -2843,7 +2843,7 @@ class JustDoItTextual(App[None]):
             candidates.append(
                 QuickFindCandidate(
                     kind="task",
-                    icon="✖" if task.trashed or task.status is TaskStatus.CANCELED else "☑" if task.status is TaskStatus.COMPLETED else "☐",
+                    icon=ICON_TASK_CANCELED if task.trashed or task.status is TaskStatus.CANCELED else ICON_TASK_CHECKED if task.status is TaskStatus.COMPLETED else ICON_TASK_UNCHECKED,
                     target=target,
                     display=f"{task.title}{preview}{tags}",
                     searchable=f"task {task.title} {task.notes_markdown} {' '.join(task.tags)}",
