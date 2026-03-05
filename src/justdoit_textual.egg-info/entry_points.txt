@@ -1,2 +1,0 @@
-[console_scripts]
-justdoit-textual = justdoit_textual.main:main
